@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: darkslategrey;
+}
+
+#title {
+    font-size: 48px;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+
+h2 {
+    text-align: center;
+    padding: 5px;
+}
+
+nav ul {
+    padding: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 1px white solid;
+    margin: 0 25px;
+    color: white;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    text-align: center;
+    background-color: darkslategrey;
+    margin: 25px 0px 0px;
+    padding: 50px 0px;
+
+}
+
+.container {
+    width: 80%;
+    margin: 10px auto;
+    border: 1px solid darkslategrey;
+    padding: 20px;
+}
+
+.color-pallete {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px 20px;
+    text-align: center;
+}
+
+#pink-lace {
+    background-color: #F0D3F7;
+}
+
+#opera-mauve {
+    background-color: #B98EA7;
+}
+
+#english-lavender {
+    background-color: #A57982;
+}
+
+#space-cadet {
+    background-color: #302F4D;
+    color: white;
+}
+
+#russian-violet {
+    background-color: #120D31;
+    color: white;
+}
+
+.color-name {
+    position: relative;
+    top: 48%;
+    font-weight: bold;
+}
+
+.hex {
+    position: relative;
+    top: 52%;
+    opacity: 0.8;
+}
+
+.text-styles {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px 20px;
+    text-align: center;
+    border: 1px solid darkslategrey;
+    padding: 25px;
+}
+
+.text-styles li {
+    list-style: none;
+    padding: 10px;
+}
+
+.source-code-pro {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px 20px;
+    text-align: center;
+    border: 1px solid darkslategrey;
+    padding: 25px;
+    font-family: 'Source Code Pro';
+}
+
+.nunito-sans {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px 20px;
+    text-align: center;
+    border: 1px solid darkslategrey;
+    padding: 25px;
+    font-family: 'Nunito Sans';
+}
+
+.poppins {
+    display: inline-block;
+    width: 30%;
+    height: 300px;
+    margin: 10px 20px;
+    text-align: center;
+    border: 1px solid darkslategrey;
+    padding: 25px;
+    font-family: 'Poppins';
+}
+
+#text-2 {
+    font-weight: bold;
+}
+
+#text-3 {
+    font-style: italic;
+}
